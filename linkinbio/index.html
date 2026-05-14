@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Printwork — Premium Custom Packaging Solutions</title>
+    <meta name="description" content="Printwork — Elevate your product with premium custom packaging. Standing pouch, box, sticker, paper cup, wrapping paper & more. Fast response, free consultation.">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Printwork — Premium Custom Packaging">
+    <meta property="og:description" content="Elevate your product with premium custom packaging solutions. Standing pouch, box, sticker, paper cup & more.">
+    <meta property="og:image" content="https://printwork.vercel.app/logo%20printwork.png">
+    <meta property="og:url" content="https://printwork.vercel.app">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Printwork — Premium Custom Packaging">
+    <meta name="twitter:description" content="Elevate your product with premium custom packaging solutions.">
+    <meta name="twitter:image" content="https://printwork.vercel.app/logo%20printwork.png">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css?v=20260515">
+</head>
+<body>
+
+    <!-- Animated Background -->
+    <div class="bg-orbs">
+        <div class="orb"></div>
+        <div class="orb"></div>
+        <div class="orb"></div>
+    </div>
+    <div class="noise-overlay"></div>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Header -->
+        <header class="header">
+            <div class="avatar-wrapper" id="avatar-trigger">
+                <div class="avatar-ring"></div>
+                <img src="../logo printwork.png" alt="Printwork Logo" class="avatar">
+            </div>
+            <h1 class="brand-name">printwork</h1>
+            <p class="tagline">Elevate Your Product with Premium Packaging</p>
+        </header>
+
+        <!-- Stats Row -->
+        <div class="stats-row">
+            <div class="stat-card">
+                <div class="stat-value">
+                    5.0
+                    <span class="stars">★★★★★</span>
+                </div>
+                <div class="stat-label">5 Stars</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">
+                    <span class="counter" data-target="3200">0</span>
+                </div>
+                <div class="stat-label">Projects</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">
+                    <span class="counter" data-target="24">0</span>
+                </div>
+                <div class="stat-label">24/7 Support</div>
+            </div>
+        </div>
+
+        <!-- Link Cards -->
+        <div class="links-section">
+            <!-- Tokopedia link temporarily removed 
+            <a href="https://tokopedia.link/printwork" target="_blank" rel="noopener" class="link-card" id="link-tokopedia">
+                <div class="link-icon">🛒</div>
+                <div class="link-text">
+                    <div class="link-title">Order via Tokopedia</div>
+                    <div class="link-desc">Cicilan 0% • Bebas Ongkir • Terpercaya</div>
+                </div>
+                <span class="link-arrow">→</span>
+            </a>
+            -->
+            <a href="../PRICELIST REPACK.pdf" target="_blank" class="link-card" id="link-catalog">
+                <div class="link-icon">📋</div>
+                <div class="link-text">
+                    <div class="link-title">Download Pricelist</div>
+                    <div class="link-desc">Katalog lengkap • Update terbaru 2026</div>
+                </div>
+                <span class="link-arrow">→</span>
+            </a>
+            <a href="https://wa.me/6285778881810?text=Halo%20Printwork%2C%20saya%20butuh%20bantuan" target="_blank" rel="noopener" class="link-card" id="link-cs">
+                <div class="link-icon">📱</div>
+                <div class="link-text">
+                    <div class="link-title">Hubungi Customer Service</div>
+                    <div class="link-desc">Fast response • Konsultasi gratis</div>
+                </div>
+                <span class="link-arrow">→</span>
+            </a>
+        </div>
+
+        <!-- Quick Inquiry Form -->
+        <div class="inquiry-section">
+            <h2 class="section-title">📩 Quick Inquiry</h2>
+            <div class="inquiry-form" id="inquiry-form-wrapper">
+                <form id="inquiry-form">
+                    <!-- Anti-spam Honeypot -->
+                    <div style="display:none;" aria-hidden="true">
+                        <label for="botCheck">Leave this empty if you are human</label>
+                        <input type="text" id="botCheck" name="botCheck" tabindex="-1">
+                    </div>
+                    <div class="form-group">
+                        <label for="custName">Your Name</label>
+                        <input type="text" id="custName" name="custName" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="custWA">WhatsApp Number</label>
+                        <input type="tel" id="custWA" name="custWA" placeholder="e.g. 08123456789" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="custProduct">Product Type</label>
+                        <select id="custProduct" name="custProduct" required>
+                            <option value="" disabled selected>Select a product...</option>
+                            <option value="Standing Pouch">Standing Pouch</option>
+                            <option value="Box/Dus Custom">Box/Dus Custom</option>
+                            <option value="Sticker/Label">Sticker/Label</option>
+                            <option value="Paper Cup">Paper Cup</option>
+                            <option value="Wrapping Paper">Wrapping Paper</option>
+                            <option value="Totebag">Totebag</option>
+                            <option value="Lainnya/Konsultasi">Lainnya/Konsultasi</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn-submit" id="btn-submit-inquiry">
+                        <span class="btn-label">Send Inquiry</span>
+                        <span class="spinner"></span>
+                    </button>
+                </form>
+                <div class="form-success" id="form-success">
+                    <div class="success-icon">✅</div>
+                    <h3>Inquiry Sent!</h3>
+                    <p>Tim kami akan segera menghubungi Anda via WhatsApp.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimonial Carousel -->
+        <div class="testimonial-section">
+            <h2 class="section-title">💬 What Our Clients Say</h2>
+            <div class="carousel-wrapper" id="testimonial-carousel">
+                <div class="carousel-track" id="carousel-track">
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">Kualitas cetakan bagus banget, warna vibrant dan detail tajam. Packaging standing pouch saya jadi terlihat premium, customer langsung notice perbedaannya!</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">R</div>
+                            <div class="author-info">
+                                <div class="author-name">Rina</div>
+                                <div class="author-title">Owner, Kopi Nusantara</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">Response cepat, desain bisa custom sesuai request. Harga kompetitif dan hasilnya selalu konsisten. Sudah langganan dari tahun lalu, highly recommended!</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">B</div>
+                            <div class="author-info">
+                                <div class="author-name">Budi</div>
+                                <div class="author-title">Owner, Snack House ID</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-dots" id="carousel-dots">
+                <button class="carousel-dot active" data-index="0" aria-label="Testimonial 1"></button>
+                <button class="carousel-dot" data-index="1" aria-label="Testimonial 2"></button>
+            </div>
+        </div>
+
+        <!-- Social Links -->
+        <div class="social-section">
+            <a href="https://www.instagram.com/printwork_official_id/" target="_blank" rel="noopener" class="social-btn" id="social-instagram" aria-label="Instagram">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+            </a>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>© 2026 Printwork. All rights reserved.</p>
+        </footer>
+
+    </div>
+
+    <!-- Supabase CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <!-- App Script -->
+    <script src="script.js?v=20260515"></script>
+
+</body>
+</html>
